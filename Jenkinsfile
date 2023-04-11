@@ -12,6 +12,7 @@ pipeline {
         stage('Init') {
             steps {
                 // Run the build command
+                az login
                 bat 'terraform init'
             }
         }
