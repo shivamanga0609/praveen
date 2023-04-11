@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the GitHub repository
-                git branch: 'terraform-vm', credentialsId: 'github-credentials', url: 'https://github.com/shivamanga0609/praveen'
+                git branch: 'test', credentialsId: 'github-credentials', url: 'https://github.com/shivamanga0609/praveen'
             }
         }
         
